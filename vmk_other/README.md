@@ -10,7 +10,10 @@
 ## Семинары по ММРО
 
 ### Метрики качества классификации, задачи на площади под кривыми `08.11.2021`
-https://youtu.be/4sKd2QElMbE
+* [Запись семинара:](https://youtu.be/4sKd2QElMbE)
+
+[<img src="https://img.youtube.com/vi/4sKd2QElMbE/maxresdefault.jpg" width=400px alt="YT link">](https://youtu.be/4sKd2QElMbE)
+
 
 ### Обучение метрик `≈21.04.22`
 In progress...
@@ -18,10 +21,15 @@ In progress...
 ## Практикум на ЭВМ
 
 ### LaTeX hacks `04.10.21`
-https://youtu.be/J3EstCmFHCs
+* [Запись семинара:](https://youtu.be/J3EstCmFHCs)
+
+[<img src="https://img.youtube.com/vi/J3EstCmFHCs/mqdefault.jpg" width=400px alt="YT link">](https://youtu.be/J3EstCmFHCs)
+
 
 ### Декораторы `25.10.21`
-Основные
-https://youtu.be/x4yMpFjIEWM
+* [Запись семинара:](https://youtu.be/x4yMpFjIEWM)
+
+[<img src="https://img.youtube.com/vi/x4yMpFjIEWM/maxresdefault.jpg" width=400px alt="YT link">](https://youtu.be/x4yMpFjIEWM)
+
 
 
