@@ -1,4 +1,8 @@
-## Практика `осень 2021`
+### ММП ВМК: другая деятельность :)
+*Все, что прямо не относится к диплому и прослушанным курсам.*
+
+## Преддипломная практика
+### Применение генеративных текстовых моделей для решения задач обработки естественного языка `осень 2021`
 * [Отчет](materials/PracticeReport.pdf)
 * [Презентация](materials/PracticeSlides.pdf)
 
@@ -25,11 +29,11 @@ In progress...
 
 [<img src="https://img.youtube.com/vi/J3EstCmFHCs/mqdefault.jpg" width=400px alt="YT link">](https://youtu.be/J3EstCmFHCs)
 
+* [Презентация, материалы](https://github.com/mmp-practicum-team/mmp_practicum_fall_2021/blob/main/Seminars/Seminar%2005.2.%20TeX%20Details/main.pdf)
 
 ### Декораторы `25.10.21`
 * [Запись семинара:](https://youtu.be/x4yMpFjIEWM)
 
 [<img src="https://img.youtube.com/vi/x4yMpFjIEWM/maxresdefault.jpg" width=400px alt="YT link">](https://youtu.be/x4yMpFjIEWM)
 
-
-
+* [Ноутбук](https://github.com/mmp-practicum-team/mmp_practicum_fall_2021/blob/main/Seminars/Seminar%2009.%20Decorators/decorators_prac_2021_fall.ipynb)
