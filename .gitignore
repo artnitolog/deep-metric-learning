@@ -1,1 +1,14 @@
+# Неоформленные мысли, ссылки, недописанный код
 junk/
+
+# Meta
+.DS_Store
+
+# Python
+__pycache__/
+.ipynb_checkpoints
+
+# VS LaTeX
+*.aux
+*.log
+*.synctex.gz
