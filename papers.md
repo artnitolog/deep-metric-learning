@@ -1,3 +1,8 @@
+## FaceNet: A Unified Embedding for Face Recognition and Clustering (`2015`)
+* TL;DR — предложен триплет лосс.
+<p align="center"><img src="vis/triplet_ill.png" width="500"></p>
+
+
 ## Deep Metric Learning via Lifted Structured Feature Embedding (`2015`)
 ### [arxiv 1511.06452](https://arxiv.org/pdf/1511.06452.pdf), [github](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16)
 
