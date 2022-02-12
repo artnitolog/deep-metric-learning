@@ -1,4 +1,4 @@
-## Deep Metric Learning via Lifted Structured Feature Embedding
+## Deep Metric Learning via Lifted Structured Feature Embedding (`2015`)
 ### [arxiv 1511.06452](https://arxiv.org/pdf/1511.06452.pdf), [github](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16)
 
 <p align="center"><img src="vis/lse_loss.png" width="500"></p>
