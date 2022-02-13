@@ -26,7 +26,7 @@
 
 
 ## [[1511.06452](https://arxiv.org/pdf/1511.06452.pdf)] Deep Metric Learning via Lifted Structured Feature Embedding
-* `TL;DR` предложен LSE-loss, честно сравнивается с contrastive pair и triplet loss.
+* `TL;DR` предложен Lifted Loss, честно сравнивается с Contrastive Pair и Triplet Loss.
 
 * Есть исходный код: [github](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16).
 
@@ -44,7 +44,7 @@
 * Преимущество: в лоссе используется вся информация о микробатче (на самом деле не совсем).
 * Преимущество лосса — утилизируется весь микробатч *(возможно, одни из первых)*.
 * Проблемы: не дифференцируема и переусложненный майнинг. Первая проблема решается субградиентом, но утверждается, вложенные максимумы все равно приводят к плохим локальным оптимумам *(это не очевидно, но эксперименты не приводятся)*.
-* Решения проблем классические: upper bound *(забавно, но тут тоже LSE)* + stochastic sampling **(4)**:
+* Решения проблем классические: upper bound *(LSE)* + stochastic sampling **(4)**:
 
 <p align="center"><img src="vis/lse_loss_upper_bnd.png" width="500"></p>
 
@@ -56,12 +56,13 @@
 * Мотивация: extreme classification *(наконец нашелся термин)*.
 * Собрали датасет: [Stanford Online Products Dataset](https://cvgl.stanford.edu/projects/lifted_struct/) — 120k картинок, 23k классов — один из наиболее крупных по количеству классов на тот момент; впоследствии использовался для сравнения различных ML-подходов.
 * Эксперименты на задаче поиска и кластеризации. Также приводятся эксперименты на CARS-196 и CUB-200. Для всех датасетов половина классов была отправлена на обучени и половина на тест — для замера использовали [F1, NMI и Recall@k](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html).
-* Есть детали обучения (но непонятно, почему приводят размеры батча для contrastive и triplet, но не приводят для LSE).
+* Есть детали обучения (но непонятно, почему приводят размеры батча для contrastive и triplet, но не приводят для lifted).
 
 <p align="center"><img src="vis/lse_on_online_priducts.png" width="700"></p>
 
-* На трех рассмотренных задачах LSE был SOTA. Также для подтверждения результатов, кроме функционалов качества, авторы визуализируют t-SNE неизвестных модели классов (анализ ошибок тоже есть).
+* На трех рассмотренных задачах Lited Loss был SOTA. Также для подтверждения результатов, кроме функционалов качества, авторы визуализируют t-SNE неизвестных модели классов (анализ ошибок тоже есть).
 
 ## [[1704.01719](https://arxiv.org/abs/1704.01719)] Beyond triplet loss: a deep quadruplet network for person re-identification
 * `TL;DR` предложен Quadruplet Loss.
-* 
+* В статье рассматривается про 
+<p align="center"><img src="vis/quadruplet_ill.png" width="300"></p>
