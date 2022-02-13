@@ -1,6 +1,22 @@
 ## FaceNet: A Unified Embedding for Face Recognition and Clustering (`2015`)
-* TL;DR — предложен триплет лосс.
+* TL;DR — предложен триплет лосс *(хотя идея формулировалась и [ранее](https://papers.nips.cc/paper/2366-learning-a-distance-metric-from-relative-comparisons.pdf))*.
+
 <p align="center"><img src="vis/triplet_ill.png" width="500"></p>
+
+* Авторы **не** приводят сравнений с другими лоссами.
+
+<p align="center"><img src="vis/triplet_loss_formula.png" width="500"></p>
+
+* Функционал **(3)** оптимизировать для случайных батчей очень легко *(существенная часть после нескольких шагов оптимизации становится easy negatives)*, поэтому сложность заключается именно в выборе триплетов. Авторы делают акцент не только на hard negative'ах, но и на hard positive'ах *(но впоследствии просто утверждают, что стабильнее использовать **все позитивы** + хард негативы).*
+* Для решения проблемы авторы берут минимумы (максимумы) расстояний по минибатчу и используют в лоссе именно их. Это не единственная эвристика.
+* Также помогает выбирать semi-hard negatives.
+* У авторов лучше работали большие батчи (1800 примеров, не более 40 позитивов per anchor).
+* Датасеты для оценки: [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/), [YouTube Faces](https://www.cs.tau.ac.il/~wolf/ytfaces/), а также неопубликованные.
+* Авторы вводят свои метрики **(7)** VAL и FAR *(но фактически это TPR и FPR для всевозможных пар изображений)*:
+
+<p align="center"><img src="vis/roc_for_triplet.png" width="800"></p>
+
+* Предобработка была *(на вход сети подавался только фрагмент с лицом).*
 
 
 ## Deep Metric Learning via Lifted Structured Feature Embedding (`2015`)
