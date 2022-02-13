@@ -1,4 +1,4 @@
-## FaceNet: A Unified Embedding for Face Recognition and Clustering (`2015`)
+## [1503.0382](https://arxiv.org/abs/1503.03832) FaceNet: A Unified Embedding for Face Recognition and Clustering
 * TL;DR — предложен триплет лосс *(хотя идея формулировалась и [ранее](https://papers.nips.cc/paper/2366-learning-a-distance-metric-from-relative-comparisons.pdf))*.
 
 <p align="center"><img src="vis/triplet_ill.png" width="500"></p>
@@ -19,8 +19,10 @@
 * Предобработка была *(на вход сети подавался только фрагмент с лицом).*
 
 
-## Deep Metric Learning via Lifted Structured Feature Embedding (`2015`)
-### [arxiv 1511.06452](https://arxiv.org/pdf/1511.06452.pdf), [github](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16)
+## [1511.06452](https://arxiv.org/pdf/1511.06452.pdf) Deep Metric Learning via Lifted Structured Feature Embedding
+* TL;DR: предложен LSE-loss, честно сравнивается с contrastive pair и triplet loss.
+
+* Есть исходный код: [github](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16).
 
 <p align="center"><img src="vis/lse_loss.png" width="500"></p>
 
