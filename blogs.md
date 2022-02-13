@@ -1,4 +1,5 @@
 ## [Deep Metric Learning: a (Long) Survey]((https://hav4ik.github.io/articles/deep-metric-learning-survey))
+***In progress: читаю в глубину***
 * `TL;DR` — большой подробный обзор методов в Supervised DML, делается акцент на SOTA-подходах, опыт в соревновании.
 * Очень частые применения:
     - В картинках: распознавание лиц
