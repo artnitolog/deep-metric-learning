@@ -1,5 +1,5 @@
-## [1503.0382](https://arxiv.org/abs/1503.03832) FaceNet: A Unified Embedding for Face Recognition and Clustering
-* TL;DR — предложен триплет лосс *(хотя идея формулировалась и [ранее](https://papers.nips.cc/paper/2366-learning-a-distance-metric-from-relative-comparisons.pdf))*.
+## [[1503.0382](https://arxiv.org/abs/1503.03832)] FaceNet: A Unified Embedding for Face Recognition and Clustering
+* `TL;DR` предложен Triplet Loss *(хотя идея формулировалась и [ранее](https://papers.nips.cc/paper/2366-learning-a-distance-metric-from-relative-comparisons.pdf))*.
 
 <p align="center"><img src="vis/triplet_ill.png" width="500"></p>
 
@@ -25,8 +25,8 @@
 <p align="center"><img src="vis/harmonic_embeddings.png"></p>
 
 
-## [1511.06452](https://arxiv.org/pdf/1511.06452.pdf) Deep Metric Learning via Lifted Structured Feature Embedding
-* TL;DR: предложен LSE-loss, честно сравнивается с contrastive pair и triplet loss.
+## [[1511.06452](https://arxiv.org/pdf/1511.06452.pdf)] Deep Metric Learning via Lifted Structured Feature Embedding
+* `TL;DR` предложен LSE-loss, честно сравнивается с contrastive pair и triplet loss.
 
 * Есть исходный код: [github](https://github.com/rksltnl/Deep-Metric-Learning-CVPR16).
 
@@ -61,3 +61,7 @@
 <p align="center"><img src="vis/lse_on_online_priducts.png" width="700"></p>
 
 * На трех рассмотренных задачах LSE был SOTA. Также для подтверждения результатов, кроме функционалов качества, авторы визуализируют t-SNE неизвестных модели классов (анализ ошибок тоже есть).
+
+## [[1704.01719](https://arxiv.org/abs/1704.01719)] Beyond triplet loss: a deep quadruplet network for person re-identification
+* `TL;DR` предложен Quadruplet Loss.
+* 
