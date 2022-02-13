@@ -3,15 +3,18 @@
 
 ## Преддипломная практика `осень 2021`
 * ***«Применение генеративных текстовых моделей для решения задач обработки естественного языка»***
-* На преддипломной практике (стажировке) я исследовал подходы к решению различных языковых задач ([Russian SuperGLUE](https://russiansuperglue.com/tasks/)) с помощью [дообучения](https://arxiv.org/pdf/2103.10385.pdf) больших [генеративных трансформеров](https://yandex.ru/lab/yalm). Основные итоги — [sota](https://russiansuperglue.com/login/submit_info/1455) на [RSG](https://russiansuperglue.com/) (сентябрь 2021: sota после human benchmkark, октябрь 2021 — 2022: sota среди подходов без использования дополнительных данных / моделей) и best practices для применения p-tuning'а.
 * [Отчет по практике](materials/PracticeReport.pdf)
 * [Презентация с защиты](materials/PracticeSlides.pdf)
+
+На преддипломной практике (стажировке) я исследовал подходы к решению различных языковых задач ([Russian SuperGLUE](https://russiansuperglue.com/tasks/)) с помощью [дообучения](https://arxiv.org/pdf/2103.10385.pdf) больших [генеративных трансформеров](https://yandex.ru/lab/yalm). Основные итоги — [sota](https://russiansuperglue.com/login/submit_info/1455) на [RSG](https://russiansuperglue.com/) (сентябрь 2021: sota после human benchmkark, октябрь 2021 — 2022: sota среди подходов без использования дополнительных данных / моделей) и best practices для применения p-tuning'а.
 
 ## Спецсеминар
 
 ### Rotary Position Embeddings `08.12.21`
 * [Презентация](materials/RotaryEmbeddings.pdf)
 * [Статья](https://arxiv.org/abs/2104.09864), [blogpost](https://blog.eleuther.ai/rotary-embeddings/)
+
+[Авторы](https://github.com/ZhuiyiTechnology) предлагают новый способ кодирования позиционной информации в транфсормерных моделях. Роторные эмбеддинги объединяют абсолютный и относительный подходы, легко [встраиваются](https://github.com/ZhuiyiTechnology/roformer) в разные (в том числе в attention-эффективные) архитектуры и на практике работают [лучше](https://blog.eleuther.ai/rotary-embeddings/) известных на момент рассказа подходов.
 
 ## Семинары по ММРО и практикуму (для 317/522)
 
